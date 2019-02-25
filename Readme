@@ -1,0 +1,17 @@
+code work in java
+
+Objective: get a number of prints from screen and save this a localpath;
+
+Constructor
+  public Print(File local,String extension) throws Exception;
+    File local : the parameter local is a local path where you want save the archives.
+    String extension: the parameter extension is a extension of image what you want use.
+ Methods
+ - public void go(int tot);
+       int tot: the paremeter tot is a total of images what you want.
+       the method save as images in array.
+ - 	public void savePrints() throws IOException;
+      The method save images in localpath defined in constructor
+     
+
+    
